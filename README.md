@@ -15,6 +15,7 @@ The main goal of this project was to design and build a functional website using
 - Table of key concepts
 - References page with sources
 - About page with author and project details
+- quiz to test yourself 
 
 ## Pages Included
 - **Home (index.html):** Introduction to cookies and overview of the topic  
@@ -22,7 +23,8 @@ The main goal of this project was to design and build a functional website using
 - **Privacy Issues (privacy.html):** Discusses concerns related to tracking and data collection  
 - **Key Concepts (concepts.html):** Defines important terms related to cookies and privacy  
 - **References (references.html):** Lists all sources used for research  
-- **About (about.html):** Introduces the author and explains the purpose of the project  
+- **About (about.html):** Introduces the author and explains the purpose of the project
+- **Quiz (quiz.html):** Take a quiz to test yourself!
 
 ## What I Learned
 This project helped me better understand how to structure a website using semantic HTML and how to apply CSS to create a consistent layout. It also showed me that building a website takes more time and attention to detail than expected. Small issues like file paths, layout alignment, and navigation consistency required troubleshooting and patience.
