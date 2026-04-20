@@ -1,0 +1,270 @@
+/* This stylesheet controls the layout, colors, typography, and overall design
+of the website. It ensures consistency across all pages using shared styles. */
+
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #1f2933;
+    line-height: 1.6;
+}
+
+/* Main width control */
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header styling */
+header {
+    background-color: #143d59;
+    color: white;
+    padding: 25px 0;
+    border-bottom: 4px solid #0f2c3f;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.tagline {
+    margin-top: 8px;
+    font-size: 1rem;
+}
+
+/* Navigation menu */
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.nav-menu li {
+    margin: 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    background-color: #1b4f72;
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect required by assignment */
+.nav-menu a:hover {
+    background-color: #2e6f95;
+    transform: translateY(-2px);
+}
+
+.active {
+    background-color: #0b2230;
+}
+
+/* Card design */
+.card {
+    background-color: white;
+    padding: 22px;
+    margin: 25px 0;
+    border: 1px solid #d9e2ec;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Grid/Flex layout requirement */
+.grid-layout {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.grid-layout .card {
+    flex: 1 1 300px;
+}
+
+/* Headings */
+h2 {
+    color: #143d59;
+    margin-top: 0;
+}
+
+h3 {
+    color: #1b4f72;
+}
+
+/* Image styling */
+.main-image {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 15px auto;
+    border: 3px solid #d9e2ec;
+    border-radius: 8px;
+}
+
+.image-note {
+    font-size: 0.95rem;
+    color: #52606d;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #bcccdc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #d9eaf7;
+}
+
+/* General links */
+a {
+    color: #0d5c8d;
+}
+
+a:hover {
+    color: #063a57;
+}
+
+/* Footer styling */
+footer {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 18px 0;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #9fd3f2;
+}
+
+/* ID selector example */
+#intro {
+    border-left: 6px solid #2e6f95;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+    .container {
+        width: 92%;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+}/* Quiz page styles */
+.quiz-question {
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: #f8fbfd;
+    border: 1px solid #d7e2ea;
+    border-radius: 8px;
+}
+
+.quiz-question h3 {
+    margin-bottom: 10px;
+    color: #123c56;
+}
+
+.quiz-question p,
+.quiz-question label {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.quiz-question input[type="text"] {
+    width: 100%;
+    max-width: 420px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #b7c6d1;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.quiz-buttons {
+    margin-top: 20px;
+}
+
+.quiz-buttons button {
+    background-color: #1f5d82;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin-right: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.quiz-buttons button:hover {
+    background-color: #174660;
+}
+
+#results {
+    display: none;
+}
+
+.correct-answer {
+    color: green;
+    font-weight: bold;
+}
+
+.wrong-answer {
+    color: red;
+    font-weight: bold;
+}
+
+.pass-text {
+    color: green;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.fail-text {
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Results box styling */
+#results {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8fbfd;
+    border-left: 5px solid #2c6e91;
+    border-radius: 8px;
+    line-height: 1.7;
+}
+
+#results h2 {
+    margin-bottom: 15px;
+    color: #123c56;
+}
+
+#results p {
+    margin-bottom: 12px;
+}

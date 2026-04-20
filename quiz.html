@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Web Cookies and Privacy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Web Cookies and Privacy</h1>
+            <p>Test your understanding of cookies, privacy, and online privacy issues</p>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="basics.html">Cookie Basics</a>
+                <a href="privacy.html">Privacy Issues</a>
+                <a href="concepts.html">Key Concepts</a>
+                <a href="references.html">References</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="container">
+        <section class="card">
+            <h2>Self-Assessment Quiz</h2>
+            <p>
+                This quiz was created to help users review the main ideas from this website.
+                Answer each question and submit your quiz to see your results.
+            </p>
+        </section>
+
+        <section class="card">
+            <form id="quizForm">
+                <!-- Question 1 -->
+                <div class="quiz-question">
+                    <h3>1. Fill in the blank</h3>
+                    <label for="q1">
+                        Small files that websites store in a user’s browser are called:
+                    </label>
+                    <input type="text" id="q1" name="q1" placeholder="Type your answer here">
+                </div>
+
+                <!-- Question 2 -->
+                <div class="quiz-question">
+                    <h3>2. Multiple Choice</h3>
+                    <p>Which type of cookie is commonly used to keep a user logged in during a visit?</p>
+
+                    <label>
+                        <input type="radio" name="q2" value="session">
+                        Session cookie
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="q2" value="tracking">
+                        Tracking cookie
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="q2" value="popup">
+                        Popup cookie
+                    </label>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="quiz-question">
+                    <h3>3. Multiple Choice</h3>
+                    <p>Why do some users see cookies as a privacy concern?</p>
+
+                    <label>
+                        <input type="radio" name="q3" value="ads">
+                        Because they always delete accounts
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="q3" value="tracking">
+                        Because they can track browsing behavior
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="q3" value="speed">
+                        Because they stop the internet from working
+                    </label>
+                </div>
+
+                <!-- Question 4 -->
+                <div class="quiz-question">
+                    <h3>4. Multiple Choice</h3>
+                    <p>Which of the following is a law or regulation connected to online data privacy?</p>
+
+                    <label>
+                        <input type="radio" name="q4" value="gdpr">
+                        GDPR
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="q4" value="css">
+                        CSS
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="q4" value="wifi">
+                        Wi-Fi
+                    </label>
+                </div>
+
+                <!-- Question 5 -->
+                <div class="quiz-question">
+                    <h3>5. Multi-Selection</h3>
+                    <p>Select all valid ways cookies can be used by websites:</p>
+
+                    <label>
+                        <input type="checkbox" name="q5" value="login">
+                        Remember login sessions
+                    </label><br>
+
+                    <label>
+                        <input type="checkbox" name="q5" value="preferences">
+                        Save user preferences
+                    </label><br>
+
+                    <label>
+                        <input type="checkbox" name="q5" value="tracking">
+                        Track browsing activity
+                    </label><br>
+
+                    <label>
+                        <input type="checkbox" name="q5" value="printer">
+                        Repair broken printers
+                    </label>
+                </div>
+
+                <!-- Buttons -->
+                <div class="quiz-buttons">
+                    <button type="button" id="submitBtn">Submit Quiz</button>
+                    <button type="reset" id="resetBtn">Retake Quiz</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Results -->
+        <section class="card">
+            <div id="results"></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>This website was created as a class project for IT 3203</p>
+            <p><a href="https://ksuweb.github.io/IT3203/" target="_blank">Course website link</a></p>
+        </div>
+    </footer>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
