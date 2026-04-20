@@ -268,3 +268,47 @@ footer a {
 #results p {
     margin-bottom: 12px;
 }
+
+/* Contact section styling */
+.contact-intro {
+    margin-bottom: 20px;
+    color: #52606d;
+}
+
+.contact-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.contact-box {
+    flex: 1 1 250px;
+    background: linear-gradient(135deg, #f8fbfd, #eaf3f8);
+    border: 1px solid #d9e2ec;
+    border-left: 5px solid #2e6f95;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.contact-box h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #143d59;
+}
+
+.contact-box p {
+    margin-bottom: 10px;
+}
+
+.contact-box a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #0d5c8d;
+}
+
+.contact-box a:hover {
+    color: #063a57;
+    text-decoration: underline;
+}
