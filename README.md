@@ -4,7 +4,8 @@
 This project is a multi-page website created for IT 3203. The purpose of this website is to explain how web cookies work, why they are important, and how they relate to user privacy. It focuses on both the technical side of cookies and the real-world concerns around data collection and tracking.
 
 ## Project Goals
-The main goal of this project was to design and build a functional website using HTML and CSS while presenting research on a web-related topic. Another goal was to organize information clearly across multiple pages and create a consistent user experience.
+The goal of this project was to create a multi-page website that explains web cookies, how they work, and why they matter for online privacy. The website is meant to help users understand both the technical side of cookies and the real-world concerns around tracking, consent, and data collection. For Milestone 3, the main objective was to improve the website so it works well on desktop, tablet, and mobile screens while also finalizing the research content.
+
 
 ## Features
 - 6-page website

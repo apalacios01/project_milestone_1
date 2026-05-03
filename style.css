@@ -312,3 +312,90 @@ footer a {
     color: #063a57;
     text-decoration: underline;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Makes tables scroll instead of breaking the layout */
+table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+/* Improves form controls on smaller screens */
+input[type="text"],
+button {
+    max-width: 100%;
+}
+
+/* Tablet screen size */
+@media (max-width: 900px) {
+    .container {
+        width: 90%;
+    }
+
+    .grid-layout {
+        flex-direction: column;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    .nav-menu {
+        justify-content: center;
+    }
+}
+
+/* Phone screen size */
+@media (max-width: 600px) {
+    header {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    header h1 {
+        font-size: 1.45rem;
+    }
+
+    .tagline {
+        font-size: 0.95rem;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 8px;
+        align-items: stretch;
+    }
+
+    .nav-menu a {
+        display: block;
+        text-align: center;
+        padding: 12px;
+    }
+
+    .card {
+        padding: 16px;
+        margin: 18px 0;
+    }
+
+    .quiz-question {
+        padding: 15px;
+    }
+
+    .quiz-buttons button {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
