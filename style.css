@@ -67,6 +67,8 @@ header h1 {
 
 .active {
     background-color: #0b2230;
+    font-weight: bold;
+    border-bottom: 3px solid #9fd3f2;
 }
 
 /* Card design */
